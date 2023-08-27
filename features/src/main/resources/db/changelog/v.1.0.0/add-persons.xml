@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+
+  <changeSet id="add-persons" author="JuliWolf">
+    <insert tableName="person">
+      <column name="firstName" value="Sissie"/>
+      <column name="lastName" value="Kandi"/>
+      <column name="email" value="Common@gmail.com"/>
+    </insert>
+
+    <insert tableName="person">
+      <column name="firstName" value="Jack"/>
+      <column name="lastName" value="Hughes"/>
+      <column name="email" value="Addicted@gmail.com"/>
+    </insert>
+
+    <insert tableName="person">
+      <column name="firstName" value="Jose"/>
+      <column name="lastName" value="Cook"/>
+      <column name="email" value="Questionable@gmail.com"/>
+    </insert>
+
+    <insert tableName="person">
+      <column name="firstName" value="Larry"/>
+      <column name="lastName" value="Smith"/>
+      <column name="email" value="Lush@gmail.com"/>
+    </insert>
+
+    <insert tableName="person">
+      <column name="firstName" value="Olivia"/>
+      <column name="lastName" value="Smith"/>
+      <column name="email" value="Trashy@gmail.com"/>
+    </insert>
+
+    <insert tableName="person">
+      <column name="firstName" value="Arthur"/>
+      <column name="lastName" value="Baker"/>
+      <column name="email" value="Pretty@gmail.com"/>
+    </insert>
+
+    <insert tableName="person">
+      <column name="firstName" value="Anthony"/>
+      <column name="lastName" value="Edwards"/>
+      <column name="email" value="Filthy@gmail.com"/>
+    </insert>
+  </changeSet>
+
+</databaseChangeLog>

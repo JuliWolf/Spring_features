@@ -1,0 +1,5 @@
+/random-rest-data/.gradle/
+/random-rest-data/build/
+/features/target/
+/features/.mvn/
+/.idea/
